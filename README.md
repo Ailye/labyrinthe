@@ -1,27 +1,11 @@
-# Labyrinthe
+Ce projet étant encore à l'état embryionnaire voici une liste succinte des améliorations à venir :
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.4.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+    - Utilisez les valeurs renseignées par l'utilisateurs pour faire varier le nombre de cellule de la grille.
+    - Utilisez la propriété "border" des cellules pour définir les murs du labyrinthe.
+    - Développer d'avantage l'utilisation de la propriété "hover" pour se repérer dans le labyrinthe (faire une distinction entre les cellues libres et les murs)
+    - Développer une fonction générant un chemin viable entre le point de Départ et le point d'Arrivée en se basant sur le nombre de cellules renseigné.
+    - Développer une fonction générant un chemin non-viable et tenant compte du chemin solution.
+    - Utilisez les deux fonctions ci-dessus pour en faire une 3e permettant de génerer l'ensemble des chemins du labyrinthe.
+    - Développer une fonctionnalité de chronomètre.
+    - Mettre en place un système de tableau des scores.
+    - Réfléchir à un moyen de jouer au clavier.
